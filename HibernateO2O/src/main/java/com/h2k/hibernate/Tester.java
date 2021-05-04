@@ -41,14 +41,14 @@ public class Tester {
 	public void testInsert(){
 		Session session = sessionFactory.openSession();
 		StockDetail stockDetail = new StockDetail();
-		stockDetail.setCompName("American Airlines");
-		stockDetail.setCompDesc("Airline Company");
+		stockDetail.setCompName("Kroger");
+		stockDetail.setCompDesc("American second-largest general retailer");
 		stockDetail.setRemark("Popular in ALL USA");
 		stockDetail.setListedDate(new Date());
 		
 		Stock stock = new Stock();
-		stock.setStockCode("2626");
-		stock.setStockName("AMRA");
+		stock.setStockCode("1020");
+		stock.setStockName("KGOR");
 		stock.setStockDetail(stockDetail);
 		
 		stockDetail.setStock(stock);

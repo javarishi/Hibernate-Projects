@@ -47,11 +47,11 @@ public class Tester {
 		Session session = sessionFactory.openSession();
 		
 		Stock stock = new Stock();
-		stock.setStockCode("5566");
-	    stock.setStockName("ASOS");
+		stock.setStockCode("1120");
+	    stock.setStockName("IBMC");
     
-	    Category category1 = new Category("ASSET", "ASSET MGMT");
-        Category category2 = new Category("ONLINE", "ONLINE RETAIL");
+	    Category category1 = new Category("IT", "Information Technology");
+        Category category2 = new Category("CONSULTING", "IT Services");
         
         Set<Category> categories = new HashSet();
         categories.add(category1);
